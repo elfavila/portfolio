@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(100, 100, 100,.8);
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    display: grid;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: center ;
+    z-index: 3;
+    }  
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 96px;
+    font-style: initial
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 64px;
+    font-style: initial
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 32px;
+}
+
+h4
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 12px;
+}
+
+.relative{
+        position: relative;
+    }
+
+#absolute1{
+    position: absolute;
+    font-size: 48px;
+    margin-top: 42%;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+#absolute2{
+    position: absolute;
+    font-size: 24px;
+    margin-top: 48%;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+#absolute3{
+    position: absolute;
+    font-size: 48px;
+    margin-left: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#absolute4{
+    position: absolute;
+    font-size: 24px;
+    margin-top: 6%;
+    text-align: right;
+    margin-left: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.sec1 {
+    margin-top: 32px
+}
+
+.img_s2{
+    margin-right: 2%;
+}
+
+.img_s3{
+    margin-right: 2%;
+    position: absolute;
+}
